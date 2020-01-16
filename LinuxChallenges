@@ -1,0 +1,128 @@
+                                    Task1: Basic Task
+
+1. ls
+I see the names of the files and folders within the file system. It means I can navigate my file system list and the files in a folder.
+
+2.pwd 
+I see /home/recruit ,the working directory. It means I can see where I am currently working , I can see the path I am currently working from.
+
+3.mkdir workspace
+ cd workspace
+
+4.ls
+I see nothing. It simply means there aren't any files or folders yet in this directory so that is why there is nothing coming up when I type the ls command and hit enter.
+
+5.touch README.md
+
+6.cp README.md CHANGELOG.md
+
+
+                            TASK2: Absolute and Relative Paths
+
+1.touch exercise.md
+mv exercise.md ~/tmp
+rm exercise.md
+
+
+                            Task3: cat commmands
+
+
+1. cat >umuzi.md ENTER
+ctrl + d
+cat >recruits.md ENTER
+ctrl + d
+cat >cohorts ENTER
+ctrl +d
+
+2. cat >umuzi.md ENTER
+I love being at umuzi. Umuzi is situated in the outter parts of johannesburg cbd in a place called jeppestown.
+ctrl + d
+
+cat >recruits.md ENTER
+The recruits here at umuz have great personalities and they are fun to be around. they love and enjoy being themselves.
+ctrl + d
+
+cat >cohorts.md ENTER
+Since Umuzi started in 2014 there has been 20 cohorts so far and i am part of cohort 20 which is amazing.
+ctrl + d
+
+3. cat umuzi.md recruits.md cohorts.md
+
+4. cat umuzi.md recruits.md cohorts.md > summary.md
+
+5. cat > summary.md ENTER
+The End.
+
+
+                            Task4: The locate command
+
+1. locate umuzi
+
+2. locate umuzi > searh_result.md
+
+
+                            Task5: The locate command cont...
+
+
+1. cd /home/recruit/Documents
+touch pad.md
+
+2. cd /home/recruit/Desktop
+mkdir work
+
+3. pwd
+cp pad.md pad_copy.md
+
+4. locate updatedb
+
+5. cd -
+
+6. locate pad_copy.md
+
+                            Task6: Find command
+
+
+1. find -name "*pdf"
+
+2. find -name "*pdf" > work
+
+3. find -maxdepth 1 -type f -daystart -mtime -1 
+
+
+                                      Task7: Text Editor
+
+1. nano my_bio.md
+
+2. ctrl + O (save)
+   ctrl + X (exit)
+
+3. mkdir my_files
+   mv my_bio.md my_files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
